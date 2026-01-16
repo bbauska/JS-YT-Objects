@@ -7,7 +7,7 @@ output:
     with some style
 ---
 
-<h2>JS=YT-Objects</h2>
+<h2>JS-YT-Objects</h2>
 
 <h3><a href="https://www.youtube.com/watch?v=m9FrY5A-tao">JavaScript Objects on YouTube</a></h3>
 
