@@ -91,8 +91,8 @@ document.write(emp.id+" "+emp.name+" "+emp.salary);
 &lt;/script&gt;
 </pre>
 
-Output:
-701 Karan 40000
+<h4>Output:</h4>
+<pre>701 Karan 40000</pre>
 
 <h4>By Using an Object Constructor</h4>
 A function is created with arguments. Each argument value can be assigned in the 
