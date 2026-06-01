@@ -30,12 +30,12 @@ blocks which are considered to be the most important data-type for the programmi
 language. This article will provide in-depth knowledge about JavaScript Objects, 
 how they are created and defined in the following sequence:
 
-	- JavaScript Object
-	- How to Create a new Object?
-	- Properties
-	- Methods
-	- Accessors
-	- Prototypes
+  - JavaScript Object
+  - How to Create a new Object?
+  - Properties
+  - Methods
+  - Accessors
+  - Prototypes
 
 <h3>JavaScript Object</h3>
 JavaScript objects are similar to objects in real life which consists of different 
