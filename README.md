@@ -50,10 +50,10 @@ of an object. You can create a JavaScript object as:
 
 <pre>
 let ObjectName = {
-Property1 : "Value",
-Property2 : "Value",
-...
-...
+  Property1 : "Value",
+  Property2 : "Value",
+  ...
+  ...
 }
 </pre>
 
@@ -63,30 +63,24 @@ There are 3 ways to create a new object:
 <h4>By Object Literal</h4>
 Syntax:
 
-<pre>
-object={property1:value1,property2:value2.....propertyN:valueN}
-</pre>
+<pre>object={property1:value1,property2:value2.....propertyN:valueN}</pre>
 
-Example:
+<h4>Example:</h4>
 
-<pre>
-&lt;script&gt;
+<pre>&lt;script&gt;
 employee={id:700,name:"Evan",salary:30000}  
 document.write(employee.id+" "+employee.name+" "+employee.salary);  
-&lt;/script&gt;
-</pre>
+&lt;/script&gt;</pre>
 
-Output:
-700 Evan 30000
+<h4>Output:</h4>
+<pre>700 Evan 30000</pre>
 
 <h4>By Creating instance of Object</h4>
-Syntax:
+<h4>Syntax:</h4>
 
-<pre>
-var objectname=new Object();
-</pre>
+<pre>var objectname=new Object();</pre>
 
-Example:
+<h4>Example:</h4>
 <pre>
 &lt;script&gt;
 var emp=new Object();  
@@ -117,8 +111,8 @@ document.write(emp.id+" "+emp.name+" "+emp.salary);
 &lt;/script&gt;
 </pre>
 
-Output:
-702 Neha 35000
+<h4>Output:</h4>
+<pre>702 Neha 35000</pre>
 
 <h3>Properties</h3>
 A property of an object is a variable that is attached to the object. They are 
@@ -131,7 +125,7 @@ access the properties of an object with a simple dot-notation such as:
 
 <h4>objectName.propertyName</h4>
 You can define a property by assigning it a value. For example, let’s create an 
-object named Car and give it properties like company, model, and color. It can 
+object named <mark>Car</mark> and give it properties like company, model, and color. It can 
 be defined as:
 
 <pre>
@@ -148,9 +142,7 @@ property of an object.
 
 <h4>The object method can be accessed as:</h4>
 
-<pre>
-objectName.methodName()
-</pre>
+<pre>objectName.methodName()</pre>
 
 <h4>Example:</h4>
 
@@ -166,11 +158,11 @@ var person = {
 </pre>
 
 <h4>Output:</h4>
-Tessa Den
+<pre>Tessa Den</pre>
 
 <h4>Some of the commonly used built-in methods are:</h4>
 
-Programming & Frameworks Training
+<h3>Programming &amp; Frameworks Training</h3>
 
 <h4>Methods &amp; Description:</h4>
 
@@ -198,11 +190,11 @@ var person = {
 document.getElementById("demo").innerHTML = person.id;
 </pre>
 
-Output:
-401
+<h4>Output:</h4>
+<pre>401</pre>
 
 <h4>The Set Keyword</h4>
-Let’s take an example and see how Setters are used to set any value of the property:
+Let’s take an example and see how <mark>Setters</mark> are used to <mark>set</mark> any value of the property:
 
 <pre>
 var person = {
@@ -217,19 +209,19 @@ person.id = 401;
 document.getElementById("demo").innerHTML = person.empid;
 </pre>
 
-Output:
-401
+<h4>Output:</h4>
+<pre>401</pre>
 
 <h3>Prototypes</h3>
-All JavaScript objects inherit properties and methods from a prototype. For example:
+All JavaScript objects inherit properties and methods from a <mark>prototype</mark>. For example:
 
-	- Date objects inherit from Date.prototype
-	- Array objects inherit from Array.prototype
-	- Person objects inherit from Person.prototype
+  - Date objects inherit from Date.prototype
+  - Array objects inherit from Array.prototype
+  - Person objects inherit from Person.prototype
 
 The JavaScript prototype property is used to add new properties to object constructors.
 
-Example:
+<h4>Example:</h4>
 
 <pre>
 function Person(first, last, id, age) {
@@ -243,7 +235,7 @@ Person.prototype.nationality = "Indian";
 
 The prototype property also allows you to add new methods to objects constructors.
 
-Example:
+<h4>Example:</h4>
 
 <pre>
 function Person(first, last, id, age) {  // Adding methods to constructors
